@@ -1,8 +1,16 @@
 # Agentic Calendar
 
-List, create, and move events on Google Calendar and Cal.com.
+Agentic Calendar lists, creates, and moves events on Google Calendar and Cal.com.
+It has a CLI and MCP tools for calendar agents.
 
 Dry run is the default. Add `--live` to call a vendor.
+
+## Vendors
+
+| Brand | Environment key | Live command |
+| --- | --- | --- |
+| Google Calendar | `GOOGLE_CALENDAR_ACCESS_TOKEN` | `npx agentic-calendar list --vendor google --live` |
+| Cal.com | `CALCOM_API_KEY` | `npx agentic-calendar list --vendor calcom --live` |
 
 ## Install
 

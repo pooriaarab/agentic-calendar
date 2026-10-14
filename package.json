@@ -1,8 +1,8 @@
 {
   "name": "agentic-calendar",
-  "version": "0.1.0",
-  "description": "List, create, and move events on Google Calendar and Cal.com.",
-  "keywords": ["calendar", "google-calendar", "cal.com", "cli", "mcp", "agentic"],
+  "version": "0.1.1",
+  "description": "CLI and MCP agent to list, create, and move Google Calendar and Cal.com events.",
+  "keywords": ["google calendar", "cal.com", "calendar", "list events", "create events", "move events", "cli", "mcp", "agent"],
   "license": "MIT",
   "author": "Pooria Arab",
   "repository": {"type":"git","url":"https://github.com/pooriaarab/agentic-calendar.git"},
